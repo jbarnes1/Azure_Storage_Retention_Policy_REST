@@ -18,8 +18,10 @@ You can set the following storage retention attributes:
       * Snaphot Deletes
 
 To make this Azure REST API call from within a C# Console application – you will first need to create an AD Service Principal with the appropriate permissions assigned:
- * How to use the portal to create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
-*Be sure to capture the Application ID and generated password for the secret you create.
+
+ * [How to use the portal to create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
+ 
+* Be sure to capture the Application ID and generated password for the secret you create.
 
 Attached is a *Sample* C# .NET Core (2.2) console application that does the following:
 *	Generates a security token based on your subscription and credentials.
