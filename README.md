@@ -6,11 +6,16 @@ Note that you can now set Azure Storage Time-Based Retention Policies today via 
 
    [Management Policies - Create Or Update](https://docs.microsoft.com/en-us/rest/api/storagerp/managementpolicies/createorupdate)
 
-Note the settings that you cann address in the JSON Policy file below:
+Note the Azure Storage Retention settings that you can address in the JSON Policy file below:
 
    ![Azure_Storage_Retention_Policy](Azure_Storage_Retention_Policy.png)
 
-
+The use of these types of storage retention policies can make for a completely automated and cost-effective storage retention strategy.
+You can set the following storage retention attributes:
+      * Tier-To-Cool
+      * Tier-To-Archive
+      * Delete
+      * Snaphot Deletes
 
 To make this Azure REST API call from within a C# Console application – you will first need to create an AD Service Principal with the appropriate permissions assigned:
  * How to use the portal to create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
