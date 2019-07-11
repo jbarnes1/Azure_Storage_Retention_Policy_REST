@@ -2,14 +2,12 @@
 
 Note that you can now set Azure Storage Time-Based Retention Policies today via the Azure REST API. You can also “TRY” all these REST API’s interactively using the Microsoft documentation links below: 
 
-    [Storage Management: Add or remove a policy](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts#add-or-remove-a-policy)
+    * torage Management: Add or remove a policy](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts#add-or-remove-a-policy)
 
-    Management Policies - Create Or Update
-    https://docs.microsoft.com/en-us/rest/api/storagerp/managementpolicies/createorupdate
+    * anagement Policies - Create Or Update](https://docs.microsoft.com/en-us/rest/api/storagerp/managementpolicies/createorupdate)
 
 To make this Azure REST API call from within a C# Console application – you will first need to create an AD Service Principal with the appropriate permissions assigned:
-
-    [How to: Use the portal to create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
+ * How to use the portal to create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
 *Be sure to capture the Application ID and generated password for the secret you create.
 
 Attached is a *Sample* C# .NET Core (2.2) console application that does the following:
