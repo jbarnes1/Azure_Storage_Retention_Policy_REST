@@ -5,8 +5,8 @@ Note that you can now set Azure Storage Time-Based Retention Policies today via 
 The lifecycle management policy enables you to:
 * Transition blobs to a cooler storage tier (hot to cool, hot to archive, cool to archive) to optimize performance & cost.
 * Delete blobs at the end of their lifecycles.
-* Define rules to be run once per day at the storage account level
-* Apply rules to containers or a subset of blobs (using prefixes as filters)
+* Define rules to be run once per day at the storage account level.
+* Ability to apply rules to containers or a subset of blobs (using prefixes as filters).
 
 You can also “TRY” all these REST API’s interactively using the Microsoft documentation links below: 
 
