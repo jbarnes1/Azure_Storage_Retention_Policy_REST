@@ -31,7 +31,7 @@ To make this Azure REST API call from within a C# Console application – you wi
  
    Be sure to capture the Application ID and generated password for the secret you create.
 
-Attached is a *Sample* C# .NET Core (2.2) console application that does the following:
+Inside this repo is a *Sample* C# NET Core (2.2) Console Application named "ImageUploader" that does the following:
 *	Generates a security token based on your subscription and credentials.
 *	Creates an Azure REST API request and sends the updated JSON policy file as part of an HTTP PUT operation.
 *	If Successful, (HTTP Status == 200 OK) then the updated JSON policy is returned in the response.
