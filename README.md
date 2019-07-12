@@ -10,9 +10,9 @@ The lifecycle management policy enables you to:
 
 You can also “TRY” all these REST API’s interactively using the Microsoft documentation links below: 
 
-    [Storage Management: Add or remove a policy](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts#add-or-remove-a-policy)
+   [Storage Management: Add or remove a policy](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts#add-or-remove-a-policy)
 
-    [Management Policies - Create Or Update](https://docs.microsoft.com/en-us/rest/api/storagerp/managementpolicies/createorupdate)
+   [Management Policies - Create Or Update](https://docs.microsoft.com/en-us/rest/api/storagerp/managementpolicies/createorupdate)
 
 Note the Azure Storage Retention settings that you can address in the JSON Policy file below:
 
@@ -20,8 +20,8 @@ Note the Azure Storage Retention settings that you can address in the JSON Polic
 
 The use of these types of storage retention policies can make for a completely automated and cost-effective storage retention strategy.
 You can set the following storage retention attributes:
-      * Tier-To-Cool
-      * Tier-To-Archive
+      * Hot-To-Cool
+      * Hot/Cool-To-Archive
       * Delete
       * Snaphot Deletes
 
