@@ -8,10 +8,11 @@ The lifecycle management policy enables you to:
 * Define rules to be run once per day at the storage account level.
 * Ability to apply rules to containers or a subset of blobs (using prefixes as filters).
 
+   [Manage the Azure Blob storage lifecycle](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts#policy)
+
 You can also “TRY” all these REST API’s interactively using the Microsoft documentation links below: 
 
    [Storage Management: Add or remove a policy](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts#add-or-remove-a-policy)
-
    [Management Policies - Create Or Update](https://docs.microsoft.com/en-us/rest/api/storagerp/managementpolicies/createorupdate)
 
 Note the Azure Storage Retention settings that you can address in the JSON Policy file below:
