@@ -1,4 +1,4 @@
-# Azure_Storage_Retention_Policy_Set_Via_REST_API
+# Set Azure Storage Retention Policy Via REST API
 
 Note that you can now set Azure Storage Time-Based Retention Policies today via the Azure REST API. 
 
