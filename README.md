@@ -10,9 +10,9 @@ The lifecycle management policy enables you to:
 
 You can also “TRY” all these REST API’s interactively using the Microsoft documentation links below: 
 
-   [Storage Management: Add or remove a policy](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts#add-or-remove-a-policy)
+    [Storage Management: Add or remove a policy](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts#add-or-remove-a-policy)
 
-   [Management Policies - Create Or Update](https://docs.microsoft.com/en-us/rest/api/storagerp/managementpolicies/createorupdate)
+    [Management Policies - Create Or Update](https://docs.microsoft.com/en-us/rest/api/storagerp/managementpolicies/createorupdate)
 
 Note the Azure Storage Retention settings that you can address in the JSON Policy file below:
 
